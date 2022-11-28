@@ -1,0 +1,139 @@
+/*
+Stylesheet for html
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*
+color profiles for background an text
+*/
+.color-gray{
+    color: rgba(127, 143, 166, 0.3);
+}
+.bg-color-gray{
+    background-color: rgba(127, 143, 166, 0.3);
+}
+.color-white{
+    color: rgba(220, 221, 225, 1.0);
+}
+.bg-color-white{
+    background-color: rgba(220, 221, 225, 1.0);
+}
+.color-green{
+    color: rgba(68, 189, 50, 1.0);
+}
+.bg-color-green{
+    background-color: rgba(68, 189, 50, 1.0);
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(127, 143, 166, 0.3);
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navigate {
+    text-align: center;
+    width: 100%;
+    font-weight: bolder;
+}
+
+.navigate a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(220, 221, 225, 1.0);
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.navigate ul li:hover, .navigate ul a:hover {
+    background-color: rgba(68, 189, 50, 1.0);
+    color: rgba(47, 54, 64, 1.0);
+}
+
+.navigate ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(194, 54, 22, 1.0);
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.description {
+    line-height: 1.8em;
+    margin: 0 0 30px 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+img {
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+.source{
+    font-style: normal;
+    color: rgba(39, 174, 96,1.0);
+    margin: 10px 0;
+}
+
+.wide-banner {
+    background-color: rgba(44, 62, 80, 1.0);
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bolder;
+    color: rgba(231, 76, 60, 1.0);
+}
+.heading-a{
+    margin: 20px 0 2px 8px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading-b{
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 20px;
+}
+.contact-q{
+    font-size:22px ;
+    font-weight: lighter;
+    padding-top: 10px ;
+    color: rgba(47, 54, 64, 1.0)
+
+}
+.contact-r{
+margin: 0 0 10px 0;
+margin-left: 10px;
+}
+.header{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0 0 2px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+.Top-header{
+   text-align: center;
+    stroke-width: 10cm;
+    color: goldenrod;
+    margin: 10px 0;
+    font-style:italic;
+    font-size: 40px;
+    text-transform:uppercase;
+}
+.defination{
+    margin: 10px 5px; 
+    font-style: italic;
+}
+
